@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node dist/index.js",
     "dev": "npx tsc",
-    "library": "npx tsx src/assignments/librabyTS.ts"
+    "library": "tsc && node dist/assignments/librabyTS.js",
+    "student-results": "tsc && node dist/assignments/studentResults.js"
   },
   "keywords": [],
   "author": "",
